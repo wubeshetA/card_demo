@@ -29,6 +29,9 @@ class QuoteCard extends StatelessWidget {
                 onPressed: () {
                   delete();
                 },
+               
+
+  
                 icon: const Icon(Icons.delete),
                 label: const Text("delete quote"))
           ],

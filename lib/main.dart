@@ -38,6 +38,7 @@ class _QuoteListState extends State<QuoteList> {
                 quote: quote,
                 delete: () {
                   setState(() {
+                    
                     quotes.remove(quote);
                   });
                 }))
